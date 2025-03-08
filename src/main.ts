@@ -11,4 +11,4 @@ const app = createApp(App)
 app.use(createPinia())
 app.use(router)
 
-app.mount('#app')
+app.mount('#app') // CSS selector ให้ไปใช้ id อะไรก็ได้ที่มีชื่อว่า app

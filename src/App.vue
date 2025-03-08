@@ -1,6 +1,6 @@
 <script setup lang="ts">
+// run only one time during the setup
 import { RouterLink, RouterView } from 'vue-router'
-
 </script>
 
 <template>
