@@ -17,9 +17,10 @@ const routes = [
     component: () => import('../views/AboutView.vue'),
   },
   {
-    path: '/event/12',
-    name: 'event-detail-views',
+    path: '/event/:id',
+    name: 'event-detail-view',
     component: eventDetailView,
+    props: true,
   },
 ]
 
