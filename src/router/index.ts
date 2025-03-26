@@ -7,6 +7,9 @@ const routes = [
     path: '/',
     name: 'event-list-view',
     component: EventListView,
+    props: (route) => ({
+      page: parseInt(route.query.page as string) || 1
+    })
   },
   {
     path: '/about',
